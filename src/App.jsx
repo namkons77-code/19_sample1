@@ -1,3 +1,6 @@
+import Body from "./Body";
+import Footer from "./Footer";
+
 function Header() {
   return (
     <header>
@@ -9,8 +12,10 @@ function Header() {
 function App() {
   return (
     <>
-      <Header />
+      <Header /> // Header 컴포넌트 호출
       <h1>헬로우 리액트</h1>
+      <Body />
+      <Footer />
     </>
   );
 }
