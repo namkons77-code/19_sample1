@@ -1,5 +1,6 @@
-import Body from "./Body";
+import Body from "./Body2";
 import Footer from "./Footer";
+import { Fragment } from "react";
 
 function Header() {
   return (

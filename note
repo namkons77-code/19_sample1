@@ -1,5 +1,17 @@
 node.js 설치
 리액트 설치
+
 npm creat vite@latest .
 
 
+npm
+
+npm run dev
+
+npm install
+npm run build
+
+
+
+import Footer from "./Footer";
+import { Fragment } from "react";
